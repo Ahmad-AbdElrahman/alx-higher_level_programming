@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 import sys
 
-av = sys.argv
-l_av = len(sys.argv)-1
-tot = 0
+if __name__ == '__main__':
+    av = sys.argv
+    l_av = len(av)
+    sum = 0
 
-if l_av > 0:
-    for i in range(1, l_av + 1):
-        tot += int(av[i])
-    print(tot)
-elif l_av == 0:
-    print(0)
+    if l_av > 1:
+        for i in range(1, l_av):
+            sum += int(av[i])
+
+    print(sum)
