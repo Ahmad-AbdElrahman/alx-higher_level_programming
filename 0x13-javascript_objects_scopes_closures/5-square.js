@@ -7,6 +7,10 @@ class Square extends Rectangle {
     super(size, size);
     this.size = size;
   }
+
+  double () {
+    super.double();
+  }
 }
 
 module.exports = Square;
