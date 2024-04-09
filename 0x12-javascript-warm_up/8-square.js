@@ -4,7 +4,7 @@ if (Number(process.argv[2])) {
   for (let i = 0; i < process.argv[2]; i++) {
     let string = '';
     for (let i = 0; i < process.argv[2]; i++) {
-      string += 'x';
+      string += 'X';
     }
     console.log(string);
   }
